@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main"
+    android:fitsSystemWindows="true"
+    android:onClick="screenClick"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/parent_layout"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutTimer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearLayoutButtons"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.hanks.htextview.evaporate.EvaporateTextView
+            android:id="@+id/evaporateTextView_min"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/rubik_mono_one"
+            android:gravity="bottom"
+            android:text="25"
+            android:textAlignment="center"
+            android:textSize="200dp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <com.hanks.htextview.evaporate.EvaporateTextView
+            android:id="@+id/evaporateTextView_sec"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/rubik_mono_one"
+            android:text="00"
+            android:textAlignment="center"
+            android:textSize="100dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="0dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/stop_resume_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayoutButtons"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/rubik_mono_one"
+        android:text="@string/start_text"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/work_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/active_btn_background"
+            android:onClick="workBtnClick"
+            android:text="Work"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <Button
+
+            android:id="@+id/break_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/inactive_btn_background"
+            android:onClick="breakBtnClick"
+            android:text="Break"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </LinearLayout>
+
+</RelativeLayout>
