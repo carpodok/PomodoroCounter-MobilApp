@@ -3,7 +3,7 @@
 
 ### :bulb: This app is a timer with no complicated interface and very simple to use.You can use in study with Pomodoro Technique.
 
-App link :link: : https://play.google.com/store/apps/details?id=com.alitalhacoban.pomodoro
+:link: App link  : https://play.google.com/store/apps/details?id=com.alitalhacoban.pomodoro
 
 <hr>
 
