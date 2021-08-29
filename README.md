@@ -1,7 +1,7 @@
 # :alarm_clock: PomodoroCounter-MobilApp 
 
 
-### :bulb: This app is a timer with no complicated interface and very simple to use.You can use in study with Pomodoro Technique.
+### :red_circle: This app is a timer with no complicated interface and very simple to use.You can use in study with Pomodoro Technique.
 
 :link: App link  : https://play.google.com/store/apps/details?id=com.alitalhacoban.pomodoro
 
