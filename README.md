@@ -1,4 +1,4 @@
-# PomodoroCounter-MobilApp :alarm_clock:
+# :alarm_clock: PomodoroCounter-MobilApp 
 
 
 ### :bulb: This app is a timer with no complicated interface and very simple to use.You can use in study with Pomodoro Technique.
